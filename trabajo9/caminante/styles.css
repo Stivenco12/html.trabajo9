@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+}
+.p1{
+    position: absolute;
+    width: 50%;
+    height: 50vw;
+    overflow: hidden;
+}
+.p2{
+    position: absolute;
+    animation-name: p1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1);
+}
+@keyframes p1 {
+    10%{
+        margin-top: -110%;
+        margin-left: 28%;
+    }
+    20%{
+        margin-top: -210%;
+        margin-left: 24%;
+    }
+    30%{
+        margin-top: -315%;
+        margin-left: 20%;
+    }
+    40%{
+        margin-top: -420%;
+        margin-left: 16%;
+    }
+    50%{
+        margin-top: -522%;
+        margin-left: 12%;
+    }
+    60%{
+        margin-top: -623%;
+        margin-left: 8%;
+    }
+    70%{
+        margin-top: -730%;
+        margin-left: 4%;
+    }    
+    80%{
+        margin-top: -835%;
+        margin-left: 0%;
+    }    
+    90%{
+        margin-top: -943%;
+        margin-left: 0%;
+    }
+    100%{
+        margin-top: -943%;
+        margin-left: 0;
+    }
+
+}

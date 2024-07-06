@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(102, 209, 252);
+}
+.p1{
+    margin-top: 5%;
+    margin-left: -40%;
+    animation-name: p1 ;
+    animation-duration: 8s ;
+    animation-iteration-count: infinite;
+}
+.p2{
+    margin-top: 3%;
+    margin-left: -20% ;
+    animation-name: p2 ;
+    animation-duration: 11s ;
+    animation-iteration-count: infinite;
+}
+.p3{
+    margin-top: 2%;
+    margin-left: -30%;
+    animation-name: p1 ;
+    animation-duration: 7s ;
+    animation-iteration-count: infinite;
+}
+@keyframes p1{
+    from {margin-left: -25%;}
+    to {margin-left: 80%;}
+}
+@keyframes p2{
+    from {margin-left: -20%;}
+    to {margin-left: 90%;}
+}
