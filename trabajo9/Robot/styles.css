@@ -1,0 +1,56 @@
+body{
+    background: wheat;
+}
+.p1{
+    margin-top: 10vw;
+    width: 43vw;
+    height: 20vw;
+    background: #ffff;
+    animation-name: p1;
+    animation-duration: 5s;
+}
+.img{
+
+    margin-top: -4vw;
+    width: 7.083vw; 
+    height: 7.083vw; 
+    border-radius: 50% ;
+    box-shadow: 1px 1px 5px rgb(224, 224, 209);
+    background-color: rgb(255, 255, 255); 
+}
+.p2{
+    margin-top: -0.4vw;
+    font-size: 3vw;
+    color: red;
+}
+.p3{
+    margin-top: -2vw;
+    font-size: 1.2vw;
+}
+.p4{
+    margin-top: -1vw;
+    font-size: 1.2vw;
+}
+.p5{
+    font-size: 2vw;
+    color: #ffff;
+    background-color:aqua;
+    border-radius: 2vw;
+    width: 25vw;
+    height: auto;
+}
+
+.p5:hover{
+    font-size: 2vw;
+    color: #ffff;
+    background-color:rgb(255, 0, 0);
+    border-radius: 2vw;
+    width: 25vw;
+    height: auto;
+}
+@keyframes p1{
+    0%{margin-top: 25vw;}
+    50%{margin-top: 5vw;}
+    100%{margin-top: 10vw;}
+
+}

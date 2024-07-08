@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+}
+.p1 {
+    position: relative; 
+    width: 50%;
+    height: 39vw;
+    overflow: hidden; 
+    border: 1px solid black; 
+}
+
+.p2{
+    margin-left: 20vw;
+    position: absolute;
+    animation-name: p1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1);
+}
+@keyframes p1 {
+    0%{
+        margin-top:0vw;
+        margin-left: 20vw;
+    }
+    10%{
+        margin-top: -37vw;
+        margin-left: 17vw;
+    }
+    20%{
+        margin-top: -75vw;
+        margin-left: 14vw;
+    }
+    30%{
+        margin-top: -113vw;
+        margin-left: 11vw;
+    }
+    40%{
+        margin-top: -151vw;
+        margin-left: 8vw;
+    }
+    50%{
+        margin-top: -189vw;
+        margin-left: 5vw;
+    }
+    60%{
+        margin-top: -227vw;
+        margin-left: 2vw;
+    }
+    70%{
+        margin-top: -265vw;
+        margin-left: -1vw;
+    }
+    80%{
+        margin-top: -303vw;
+        margin-left: -4vw;
+    }
+    90%{
+        margin-top: -341vw;
+        margin-left: -7vw;
+    }
+    100%{
+        margin-top: 0vw;
+        margin-left: -10vw;
+    }
+}
